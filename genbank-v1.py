@@ -21,7 +21,7 @@ genbank_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucc
 
 for i,j in acc_values:
 	
-	#addes the accession number to the url
+	#adds the accession number to the url
 	url = genbank_url + i + "&rettype=fasta&retmode=text"
 
 	#tries to connect and outputs and exception if not successful
